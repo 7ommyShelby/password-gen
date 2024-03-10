@@ -1,0 +1,94 @@
+.parameteres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+.slider{
+    width: 100%;
+}
+
+section {
+    border-radius: 10px;
+    background: rgb(250, 247, 25);
+    background: linear-gradient(90deg, rgba(250, 247, 25, 1) 18%, rgba(240, 95, 95, 1) 87%);
+    padding: 20px;
+    width: 600px;
+    background-color: beige;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pass {
+    background-color: black;
+    padding: 10px;
+}
+
+.pass p {
+    color: white;
+    font-weight: 600;
+    font-weight: 1rem;
+}
+
+.container {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+
+.right {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.range {
+    margin-top: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+span {
+    font-weight: 600;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.gen {
+    background-color: rgb(25, 146, 25);
+}
+
+.copy {
+    background-color: rgb(117, 117, 243);
+}
