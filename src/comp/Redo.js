@@ -62,7 +62,7 @@ const Redo = () => {
                     setlength(e.target.value)
                 }} type="number" name="" id="length" required min={8} max={50} /> */}
 
-                <span>(Select between <strong>8 to 32 characters</strong>)</span>
+                <span>(Select between <strong>8 to 50 characters</strong>)</span>
             </div>
 
             <input className='slider' onChange={(e) => {

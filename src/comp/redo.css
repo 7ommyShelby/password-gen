@@ -16,6 +16,7 @@ h1 {
 }
 
 section {
+    box-shadow: 0px 0px 10px 0px white;
     border-radius: 10px;
     background: rgb(250, 247, 25);
     background: linear-gradient(90deg, rgba(250, 247, 25, 1) 18%, rgba(240, 95, 95, 1) 87%);
