@@ -100,6 +100,7 @@ const Home = () => {
                 return finalstr
             })
         }
+        console.log(str);
     }, [capital, small, num, splchr])
     
 

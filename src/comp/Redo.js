@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 const Redo = () => {
 
-    const [length, setlength] = useState();
+    const [length, setlength] = useState(8);
 
     const [password, setPassword] = useState("");
 
@@ -66,6 +66,7 @@ const Redo = () => {
             </div>
 
             <input className='slider' onChange={(e) => {
+                
                     setlength(e.target.value)
                 }}
                 type="range" name="" id="" defaultValue={8} min={0} max={100}/>
